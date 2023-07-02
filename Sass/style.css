@@ -1,0 +1,14 @@
+body input[name=nom] {
+  border: 2px solid blue;
+  padding: 5px;
+}
+body input[name=email] {
+  border: 2px solid green;
+  padding: 5px;
+}
+body textarea[name=message] {
+  border: 2px solid red;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

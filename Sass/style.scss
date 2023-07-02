@@ -1,0 +1,22 @@
+body{
+   
+
+// Styles pour le champ "Nom"
+input[name="nom"] {
+    border: 2px solid blue;
+    padding: 5px;
+  }
+  
+  // Styles pour le champ "Adresse e-mail"
+  input[name="email"] {
+    border: 2px solid green;
+    padding: 5px;
+  }
+  
+  // Styles pour le champ "Message"
+  textarea[name="message"] {
+    border: 2px solid red;
+    padding: 5px;
+  }
+  
+}

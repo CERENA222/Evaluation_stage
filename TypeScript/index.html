@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Compteur de mots</title>
+</head>
+<body>
+  <div id="result"></div>
+
+  <script>
+    
+    function countWords(input) {
+      
+      const trimmedInput = input.trim();
+
+      
+      const words = trimmedInput.split(" ");
+
+      
+      return `<p>Le nombre de mots dans la chaîne est : ${words.length}</p>`;
+    }
+
+    const inputString = "Bonjour, comment ça va ?";
+    const wordCountHTML = countWords(inputString);
+    document.getElementById("result").innerHTML = wordCountHTML;
+  </script>
+</body>
+</html>
+
